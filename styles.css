@@ -1,1 +1,21 @@
 /*  your css code here. If applicable */
+table {
+    border: 1px solid orange;
+    width: 100%; /* Adjust width as needed */
+    border-collapse: collapse; /* To merge borders */
+}
+
+th, td {
+    border: 1px solid orange;
+    text-align: center;
+    padding: 3px 5px;
+}
+
+thead th {
+    background-color: #888888;
+    color: white;
+}
+
+.sub-total-row .sub-total-text {
+    text-align: right;
+}
